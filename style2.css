@@ -1,0 +1,46 @@
+body{
+    background: url(back2.jpg);
+    background-size: cover ;
+    background-position: center;
+    font-family: sans-serif;
+ }
+.loginpage{
+    width: 350px;;
+    height:500px;
+    background:rgba(222, 246, 253, 0.8);
+    color:rgba(0,0,0,0.8);
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform:translate(-50%,-50%);
+    box-sizing:border-box;
+    box-shadow: 10px 6px 27px -1px rgba(169, 172, 191, 0.95);
+    -webkit-box-shadow: 10px 6px 27px -1px rgba(143,161,255,0.95);
+    -moz-box-shadow: 10px 6px 27px -1px rgba(143,161,255,0.95);
+     padding:100px 50px;
+}
+
+.icon{
+    position: absolute;
+    top:-50px;
+    left: calc(50% - 50px);
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+}
+.loginpage input{
+    width:100%;
+    margin-bottom:20px;
+    border:none;
+    border-bottom: 1px solid rgba(231, 239, 241, 0.76);
+    background: transparent;
+    color:black;
+    font-size:18px;
+}
+.loginpage input[type="submit"]
+{height:40px;
+    background:rgb(0, 128, 255);
+    font-size:18px;
+    border-radius:15px;
+}
